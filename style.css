@@ -30,14 +30,14 @@ div {
     margin-right: auto;
 }
 
-@media only screen and (min-width: 451px) {   
+@media only screen and (min-width: 451px) {
     div {
         width: 400px; 
         box-shadow:5px 5px 10px black; 
     }
 }
 
-@media only screen and (max-width: 450px) {   
+@media only screen and (max-width: 450px) {
     div {
         width: 90% !important;
         box-shadow:2px 2px 12px black;
