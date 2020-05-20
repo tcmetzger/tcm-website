@@ -1,0 +1,57 @@
+body {
+    background: rgb(53, 53, 53);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+i {
+    margin: 8px;
+}
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+  }
+
+a:hover {
+    color: rgb(88, 88, 88);
+}
+
+div {
+    margin-top: 10%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background: rgba(249, 249, 249, 0.7);
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+@media only screen and (min-width: 451px) {   
+    div {
+        width: 400px; 
+        box-shadow:5px 5px 10px black; 
+    }
+}
+
+@media only screen and (max-width: 450px) {   
+    div {
+        width: 90% !important;
+        box-shadow:2px 2px 12px black;
+    }
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+  }
